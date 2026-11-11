@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="STRAGIC AI Hub: tecnología, innovación, investigación e inteligencia legal responsable.">
+  <meta name="theme-color" content="#123f91">
+  <title>STRAGIC AI Hub | Global Innovation Community</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#">
+        <img src="assets/stragic-logo.png" alt="Logo STRAGIC">
+        <span><b>STRAGIC</b><small>AI HUB · GLOBAL COMMUNITY</small></span>
+      </a>
+      <div class="side-label">WORKSPACE</div>
+      <nav>
+        <a class="nav-item active" href="#overview"><span>⌂</span> Inicio</a>
+        <a class="nav-item" href="#assistant"><span>✳</span> AI Assistant</a>
+        <a class="nav-item" href="#agents"><span>◈</span> Agentes IA</a>
+        <a class="nav-item" href="#areas"><span>▦</span> Áreas de impacto</a>
+        <a class="nav-item" href="#roadmap"><span>↗</span> Mi espacio</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="status-dot"></div><span>Prototipo de comunidad</span>
+        <small>Versión 0.1 · STRAGIC</small>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div><span class="eyebrow">GLOBAL TECHNOLOGY · INNOVATION · RESEARCH</span><h1>Ideas que conectan. <em>Impacto que transforma.</em></h1></div>
+        <div class="top-actions"><span class="pill"><i></i> Plataforma en desarrollo</span><button class="avatar" aria-label="Perfil">S</button></div>
+      </header>
+
+      <section class="hero" id="overview">
+        <div class="hero-copy">
+          <div class="tag">✦ TU ECOSISTEMA DE INNOVACIÓN</div>
+          <h2>El conocimiento es el inicio.<br><span>La colaboración es el impacto.</span></h2>
+          <p>Explora tecnologías emergentes, desarrolla proyectos, investiga y accede a orientación inteligente para llevar tus ideas al siguiente nivel.</p>
+          <div class="hero-actions"><a class="btn primary" href="#assistant">Explorar STRAGIC AI <b>↗</b></a><a class="btn secondary" href="#areas">Descubrir la plataforma</a></div>
+        </div>
+        <div class="hero-art"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="core">✳<small>AI</small></div><span class="node n1">TECH</span><span class="node n2">LEGAL</span><span class="node n3">R&D</span><span class="node n4">IDEAS</span></div>
+      </section>
+
+      <section class="section-head" id="agents"><div><span class="eyebrow">INTELLIGENCE LAYER</span><h2>Un equipo de agentes para impulsar tus ideas</h2><p>Elige un área y conversa con el asistente central.</p></div><span class="soft-label">5 agentes especializados</span></section>
+      <section class="agent-grid">
+        <button class="agent-card" data-agent="core"><span class="agent-icon orange">✳</span><b>STRAGIC Core</b><small>Coordina tareas y deriva consultas al agente adecuado.</small><span class="card-link">Iniciar conversación ↗</span></button>
+        <button class="agent-card" data-agent="tech"><span class="agent-icon blue">⌘</span><b>Tech Agent</b><small>Arquitectura, programación, APIs y desarrollo de productos.</small><span class="card-link">Explorar tecnología ↗</span></button>
+        <button class="agent-card" data-agent="legal"><span class="agent-icon orange">§</span><b>Legal Intelligence</b><small>Investigación normativa, privacidad, contratos e IP.</small><span class="card-link">Explorar legal ↗</span></button>
+        <button class="agent-card" data-agent="research"><span class="agent-icon blue">⌕</span><b>Research Agent</b><small>Preguntas de investigación, evidencia y análisis científico.</small><span class="card-link">Investigar ↗</span></button>
+        <button class="agent-card" data-agent="innovation"><span class="agent-icon orange">◇</span><b>Innovation Agent</b><small>Validación de ideas, prototipos y modelos de impacto.</small><span class="card-link">Crear soluciones ↗</span></button>
+      </section>
+
+      <section class="workspace" id="assistant">
+        <div class="chat-intro">
+          <span class="eyebrow">STRAGIC AI ASSISTANT</span><h2>¿Qué te gustaría<br><em>construir hoy?</em></h2>
+          <p>Un punto de entrada para explorar, aprender y desarrollar soluciones con apoyo de inteligencia artificial.</p>
+          <div class="trust-note"><span>ⓘ</span><div><b>IA responsable y transparente</b><small>Las respuestas pueden requerir verificación. En temas legales, consulta fuentes oficiales y profesionales habilitados.</small></div></div>
+        </div>
+        <div class="chat-panel">
+          <div class="chat-top"><div class="bot-mark">✳</div><div><b>STRAGIC Assistant</b><small><span class="online"></span> Asistente de la comunidad</small></div><span class="chat-mode">BETA</span></div>
+          <div class="agent-select"><label for="agentSelect">AGENTE</label><select id="agentSelect"><option value="core">STRAGIC Core · General</option><option value="tech">Tech Agent</option><option value="legal">Legal Intelligence</option><option value="research">Research Agent</option><option value="innovation">Innovation Agent</option></select><label for="jurisdiction">JURISDICCIÓN</label><select id="jurisdiction"><option value="No especificada">Seleccionar país...</option><option>Perú</option><option>México</option><option>Colombia</option><option>Chile</option><option>Argentina</option><option>España</option><option>Estados Unidos</option><option>Reino Unido</option><option>Otra / indicar en el mensaje</option></select></div>
+          <div class="messages" id="messages" aria-live="polite">
+            <div class="message assistant"><div class="mini-mark">✳</div><div class="bubble"><b>¡Hola! Soy STRAGIC Assistant.</b><p>Puedo ayudarte a estructurar una idea tecnológica, explorar un tema de investigación o identificar aspectos legales que debas verificar.</p><small>¿Por dónde empezamos?</small></div></div>
+          </div>
+          <div class="suggestions"><button data-prompt="Ayúdame a convertir una idea en un proyecto tecnológico viable.">Desarrollar una idea</button><button data-prompt="¿Qué aspectos de propiedad intelectual debo revisar para mi startup?">Propiedad intelectual</button><button data-prompt="Diseña una ruta de investigación sobre inteligencia artificial responsable.">Ruta de investigación</button></div>
+          <form id="chatForm" class="composer"><textarea id="userInput" rows="1" placeholder="Escribe tu pregunta o desafío..." required></textarea><button type="submit" aria-label="Enviar mensaje">↑</button></form>
+          <div class="chat-foot">STRAGIC AI puede cometer errores. Verifica información crítica antes de actuar.</div>
+        </div>
+      </section>
+
+      <section class="section-head" id="areas"><div><span class="eyebrow">GLOBAL IMPACT AREAS</span><h2>Conocimiento que se convierte en acción</h2></div></section>
+      <section class="impact-grid">
+        <article><span>01</span><b>Tecnología emergente</b><p>IA, ciencia de datos, ciberseguridad, robótica y computación cuántica.</p></article>
+        <article><span>02</span><b>Investigación abierta</b><p>Conocimiento científico, revisión de evidencia y colaboración interdisciplinaria.</p></article>
+        <article><span>03</span><b>Innovación responsable</b><p>Startups, prototipos, transferencia tecnológica e impacto social.</p></article>
+        <article><span>04</span><b>Entorno legal</b><p>Privacidad, propiedad intelectual, gobernanza y cumplimiento por país.</p></article>
+      </section>
+
+      <section class="roadmap" id="roadmap"><div><span class="eyebrow">BUILDING THE FUTURE</span><h2>De una comunidad a un ecosistema global.</h2><p>Conecta talento, impulsa proyectos y crea alianzas que generen resultados medibles.</p></div><a class="btn light" href="mailto:hello@stragic.org">Conectar con STRAGIC ↗</a></section>
+      <footer><span>© 2026 STRAGIC · Connecting Ideas. Creating Impact.</span><span>Prototipo inicial · No constituye asesoría legal.</span></footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body></html>
